@@ -20,7 +20,7 @@ def get_roman_symbol(num, decimal_place):
     else:
         return f'{symbols[symbol_index * 5] * div_by_five}{symbols[symbol_index] * mod_by_five}'
 
-# bug        
+# bug 1        
 
 
 def roman_numerals_encoder(number):
