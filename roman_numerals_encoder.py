@@ -1,3 +1,4 @@
+import string
 
 def get_roman_symbol(num, decimal_place):
     symbols = {
@@ -14,15 +15,17 @@ def get_roman_symbol(num, decimal_place):
     div_by_five = int_num // 5
     mod_by_five = int_num % 5
     symbol_index = 10 ** decimal_place
+    none_sign = ''
 
     if mod_by_five == 4:
         return f'{symbols[symbol_index]}{symbols[symbol_index * 5 * (div_by_five + 1)]}'
     else:
-        return f'{symbols[symbol_index * 5] * div_by_five}{symbols[symbol_index] * mod_by_five}'
-        
+        return f'{(symbols[symbol_index * 5] * div_by_five) if div_by_five != 0 else none_sign}{symbols[symbol_index] * mod_by_five}'
 
 
 def roman_numerals_encoder(number):
+    if number >= 4000:
+        raise Exception('Unsupported number')
     decimal_place = len(str(number)) - 1
     result = ""
     for num in str(number):
@@ -30,7 +33,9 @@ def roman_numerals_encoder(number):
         decimal_place -= 1
     return result
 
-print(roman_numerals_encoder(432))
+
+print(roman_numerals_encoder(2849))
+
 
     
 # print(get_roman_symbol('0', 0))
