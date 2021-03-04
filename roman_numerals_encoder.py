@@ -33,9 +33,13 @@ def roman_numerals_encoder(number):
         decimal_place -= 1
     return result
 
+<<<<<<< HEAD
 
 print(roman_numerals_encoder(2849))
 
+=======
+print(roman_numerals_encoder(3987))
+>>>>>>> 8f28decb01a2bd517d117d1bdacee897a6b434d7
 
     
 # print(get_roman_symbol('0', 0))
