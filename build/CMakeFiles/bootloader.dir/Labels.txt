@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/CMakeFiles/bootloader
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/CMakeFiles/bootloader.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/CMakeFiles/bootloader-complete.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/tomi/Documents/MyProjects/privát/beagyazott_kurzus/ESP32_projects/WS2812-led-matrix-driver/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
